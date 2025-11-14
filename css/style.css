@@ -1,0 +1,717 @@
+/* === GERAL===*/
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+
+}
+
+h1,
+h2,
+h3 {
+
+    color: #333
+}
+
+p {
+
+    color: #70747a
+}
+
+/* === NAVBAR ===*/
+
+.navbar-container {
+
+    width: 100%;
+    height: 80px;
+    background-color: #232a31;
+    padding: 0 2rem;
+
+
+
+}
+
+nav {
+
+    position: relative;
+}
+
+.logo {
+
+    width: 50px;
+    margin-top: 15px;
+
+}
+
+.navbar-itens {
+
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+
+}
+
+.navbar-itens li {
+    text-transform: uppercase;
+    margin-left: 25px;
+    display: inline-block;
+
+}
+
+.navbar-itens li a {
+
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+.navbar-itens a:hover {
+
+    color: #ccc
+}
+
+.default-btn {
+
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 7px;
+}
+
+.navbar-itens .default-btn:hover {
+
+    background-color: #22bb5f;
+    color: #fff;
+}
+
+/*=== MAIN BANNER===*/
+
+.main-banner {
+
+    background-image: url("../img/mainbanner.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+
+}
+
+
+.main-banner h1,
+.main-banner p {
+
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+
+}
+
+.main-banner h1 {
+
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+
+.main-banner p {
+
+    font-size: 32px;
+}
+
+/*===SECTION SERVICES ===*/
+
+.services-container {
+
+    padding: 5rem 0;
+
+}
+
+.services-container ul {
+
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.services-container li {
+
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas {
+    margin-bottom: 20px;
+    font-size: 60px;
+
+}
+
+.fa-rocket {
+    color: #2cc76a;
+}
+
+.fa-shield-alt {
+    color: #ef3f29;
+}
+
+.fa-comments {
+    color: #ef8f29;
+}
+
+.services-container h3 {
+
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.services-container p {
+
+    line-height: 30px;
+}
+
+/*===SECTION PLANOS E PREÇOS===*/
+
+.pricing-container {
+
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.pricing-container h2 {
+
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.pricing-container p {
+
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.plans-container {
+
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+
+}
+
+.plan {
+
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan ul {
+
+    padding: 0;
+}
+
+.plan li {
+
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333
+}
+
+.plan .price {
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc762;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.plan .plan-name {
+
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #202b34;
+    padding: 50px 0;
+
+}
+
+.plan .plan-btn {
+
+    font-size: 20px;
+    background-color: #2cc762;
+    line-height: 75px;
+    height: 75px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.plan .recommended {
+
+    background-color: #f45c57;
+
+}
+
+/*===SECTION DOMAIN===*/
+
+.searchdomain-container {
+    background-color: #34454e;
+    text-align: center;
+    padding: 5rem 0;
+
+}
+
+.searchdomain-container h2 {
+
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 2rem;
+}
+
+.searchdomain-container p {
+
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.searchdomain-container input {
+    display: block;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+
+}
+
+.searchdomain-container input[type="text"] {
+
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #34454e
+}
+
+.searchdomain-container input[type="submit"] {
+
+
+    padding: 15px 30px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #2cc762;
+    opacity: 0.8;
+
+}
+
+.searchdomain-container input[type="submit"]:hover {
+
+    opacity: 1;
+
+}
+
+/*===SECTION CONTACT===*/
+
+.contact-container {
+
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+
+}
+
+.contact-container h2 {
+
+    font-size: 36px;
+    margin-bottom: 15px;
+
+}
+
+.contact-container p {
+
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+textarea {
+
+    border-radius: 10px;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+
+}
+
+textarea {
+
+    display: block;
+    margin: 0 auto 35px;
+    height: 150px;
+    width: 470px;
+}
+
+.contact-container input[type="submit"] {
+
+
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #2cc762;
+    opacity: 0.8;
+
+}
+
+.contact-container input[type="submit"]:hover {
+
+    opacity: 1;
+
+}
+
+/*===FOOTER===*/
+
+footer {
+
+    text-align: center;
+    font-weight: bold;
+    background-color: #232a31;
+    padding: 15px;
+
+}
+
+footer p {
+
+
+    color: #fff
+}
+
+/* === RESPONSIVIDADE */
+
+/*===SMALL LEPTOPS AND TABLETS ===*/
+/*===PLANS-CONTAINER ===*/
+
+
+@media (max-width:1100px) {
+
+    .plans-container {
+
+        width: 95%;
+
+
+    }
+
+    .plan {
+
+        margin: 0 5px;
+    }
+
+}
+
+/*===TABLETS ===*/
+
+@media (max-width:900px) {
+
+
+    .main-banner p {
+
+        padding: 0 5rem;
+    }
+
+    .searchdomain-container h2 {
+
+
+        font-size: 35px;
+
+    }
+
+
+    .contact-container p {
+
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+
+}
+
+/*===CELULARES===*/
+
+@media (max-width:576px) {
+
+    .logo {
+
+        width: 45px;
+        margin-top: 20px;
+
+    }
+
+    .navbar-itens li {
+        font-size: 15px;
+
+    }
+
+    .default-btn {
+
+        padding: 10px 15px;
+
+    }
+
+    .main-banner h1 {
+
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+
+    .main-banner p {
+
+        font-size: 25px;
+    }
+
+    .plans-container {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+
+    }
+
+    .plan {
+
+        max-width: 80%;
+        width: 100%;
+
+
+
+    }
+
+
+    .services-container ul {
+
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .searchdomain-container h2 {
+
+
+        font-size: 30px;
+        padding: 0px 5rem;
+    }
+
+    .searchdomain-container p {
+
+
+        font-size: 18px;
+
+    }
+
+
+    .searchdomain-container input[type="text"] {
+
+        width: 45%;
+        font-size: 16px;
+
+    }
+
+    .searchdomain-container input[type="submit"] {
+
+
+        padding: 12px 28px;
+        font-size: 16px;
+
+
+    }
+
+    .contact-container p {
+
+        font-size: 16px;
+        margin: 10px 50px 30px;
+    }
+
+    textarea {
+
+
+        margin: 0 auto 35px;
+        height: 150px;
+        width: 420px;
+    }
+
+
+}
+
+/*===CELULARES===*/
+
+@media (max-width:368px) {
+    @media (max-width: 368px) {
+
+        .logo {
+            width: 35px;
+            margin-top: 22px;
+        }
+
+        .navbar-itens {
+            right: 0.3rem;
+        }
+
+        .navbar-itens li {
+            margin-left: 5px;
+        }
+
+        .navbar-itens li a{
+                font-size:12px;
+            }
+
+            .default-btn {
+                padding: 5px 8px;
+               
+            }
+        }
+
+        textarea {
+
+
+            margin: 0 auto 30px;
+            height: 100px;
+            width: 300px;
+        }
+
+
+        .main-banner h1 {
+
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .main-banner p {
+
+            font-size: 20px;
+            padding: 0 3rem;
+            line-height: 2rem;
+
+        }
+
+
+        .services-container ul {
+
+
+            width: 80%;
+
+        }
+
+        .fas {
+
+            font-size: 50px;
+        }
+
+        .services-container p {
+
+
+            padding: 0 15px;
+        }
+
+
+        .pricing-container h2 {
+
+            font-size: 30px;
+
+        }
+
+        .pricing-container p {
+
+            font-size: 16px;
+
+        }
+
+        .plans-container {
+
+            margin-left: 0;
+
+        }
+
+        .plan {
+
+            max-width: 80%;
+            width: 100%;
+        }
+
+        .searchdomain-container h2 {
+
+
+            font-size: 25px;
+            padding: 0px 3rem;
+        }
+
+        .searchdomain-container p {
+
+
+            font-size: 16px;
+
+        }
+
+        .searchdomain-container input[type="text"] {
+
+            width: 60%;
+            font-size: 14px;
+            padding: 15px;
+
+        }
+
+        .searchdomain-container input[type="submit"] {
+
+
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        .contact-container p {
+
+            font-size: 14px;
+            margin: 15px 50px 30px;
+        }
+
+        .contact-container h2 {
+
+            font-size: 24px;
+            margin: 0 2rem;
+
+        }
+
+        textarea {
+
+
+            margin: 0 auto 35px;
+            height: 150px;
+            width: 250px;
+        }
+
+        footer p {
+
+            font-size: 12px;
+        }
+
+
+
+    }
