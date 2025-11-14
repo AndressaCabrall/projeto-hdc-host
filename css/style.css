@@ -567,133 +567,123 @@ footer p {
 
 @media (max-width: 480px) {
 
-      .navbar-itens li a {
+   
+
+
+    textarea {
+
+
+        margin: 0 auto 30px;
+        height: 100px;
+        width: 300px;
+    }
+
+
+    .main-banner h1 {
+
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .main-banner p {
+
+        font-size: 20px;
+        padding: 0 3rem;
+        line-height: 2rem;
+
+    }
+
+
+    .services-container ul {
+
+
+        width: 80%;
+
+    }
+
+    .fas {
+
+        font-size: 50px;
+    }
+
+    .services-container p {
+
+
+        padding: 0 15px;
+    }
+
+
+    .pricing-container h2 {
+
+        font-size: 30px;
+
+    }
+
+    .pricing-container p {
+
+        font-size: 16px;
+
+    }
+
+
+    .plan {
+
+        max-width: 80%;
+        width: 100%;
+    }
+
+    .searchdomain-container h2 {
+
+
+        font-size: 25px;
+        padding: 0px 3rem;
+    }
+
+    .searchdomain-container p {
+
+
+        font-size: 16px;
+
+    }
+
+    .searchdomain-container input[type="text"] {
+
+        width: 60%;
+        font-size: 14px;
+        padding: 15px;
+
+    }
+
+    .searchdomain-container input[type="submit"] {
+
+
+        padding: 15px;
         font-size: 14px;
     }
 
-    .default-btn {
-        padding: 5px 8px;
+    .contact-container p {
+
+        font-size: 14px;
+        margin: 15px 50px 30px;
+    }
+
+    .contact-container h2 {
+
+        font-size: 24px;
+        margin: 0 2rem;
 
     }
 
+    textarea {
 
-textarea {
 
+        margin: 0 auto 35px;
+        height: 150px;
+        width: 350px;
+    }
 
-    margin: 0 auto 30px;
-    height: 100px;
-    width: 300px;
+    footer p {
+
+        font-size: 12px;
+    }
 }
-
-
-.main-banner h1 {
-
-    font-size: 35px;
-    margin-bottom: 10px;
-}
-
-.main-banner p {
-
-    font-size: 20px;
-    padding: 0 3rem;
-    line-height: 2rem;
-
-}
-
-
-.services-container ul {
-
-
-    width: 80%;
-
-}
-
-.fas {
-
-    font-size: 50px;
-}
-
-.services-container p {
-
-
-    padding: 0 15px;
-}
-
-
-.pricing-container h2 {
-
-    font-size: 30px;
-
-}
-
-.pricing-container p {
-
-    font-size: 16px;
-
-}
-
-
-.plan {
-
-    max-width: 80%;
-    width: 100%;
-}
-
-.searchdomain-container h2 {
-
-
-    font-size: 25px;
-    padding: 0px 3rem;
-}
-
-.searchdomain-container p {
-
-
-    font-size: 16px;
-
-}
-
-.searchdomain-container input[type="text"] {
-
-    width: 60%;
-    font-size: 14px;
-    padding: 15px;
-
-}
-
-.searchdomain-container input[type="submit"] {
-
-
-    padding: 15px;
-    font-size: 14px;
-}
-
-.contact-container p {
-
-    font-size: 14px;
-    margin: 15px 50px 30px;
-}
-
-.contact-container h2 {
-
-    font-size: 24px;
-    margin: 0 2rem;
-
-}
-
-textarea {
-
-
-    margin: 0 auto 35px;
-    height: 150px;
-    width: 350px;
-}
-
-footer p {
-
-    font-size: 12px;
-}
-}
-
-
-
