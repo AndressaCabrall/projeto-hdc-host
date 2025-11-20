@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/png" href="img/hdchostlogo.png">
+
 
 </head>
 
@@ -30,16 +32,17 @@
 
                 <ul class="navbar-itens">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li>
-                        <a href="#">Preços</a>
+                        <a href="#pricing">Preços</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                     <li>
-                        <a href="#" class="default-btn">Entrar</a>
+                        <a href="php/login.php" class="default-btn">Entrar</a>
+
                     </li>
 
                 </ul>
@@ -49,7 +52,7 @@
 
         <!-- Main -->
 
-        <main>
+        <main id="home">
 
             <div class="main-banner">
 
@@ -103,7 +106,7 @@
             </section>
 
             <!-- Section Pricing and Plans -->
-            <section class="pricing-container">
+            <section class="pricing-container" id="pricing">
 
                 <h2>Planos e Preços</h2>
                 <p>Selecione o plano que atende as suas necessidades.</p>
@@ -186,7 +189,7 @@
             </section>
 
             <!-- Section Contact-->
-            <section class="contact-container">
+            <section class="contact-container" id="contact">
 
                 <h2>Mande uma mensagem</h2>
                 <p>Envie a sua mensagem, em até 04 horas um especialista entrará em contato.</p>
