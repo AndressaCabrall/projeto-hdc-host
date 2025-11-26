@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hDC host</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
     <!-- Icones  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" type="image/png" href="img/hdchostlogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="icon" type="image/png" href="../assets/img/hdchostlogo.png">
 
 
 </head>
@@ -26,7 +24,7 @@
         <div class="navbar-container">
             <nav>
                 <a href="#">
-                    <img src="img/hdchostlogo.png" class="logo" alt="hDC hoster logo">
+                <img src="../assets/img/hdchostlogo.png" class="logo" alt="hDC hoster logo">
 
                 </a>
 
@@ -43,7 +41,11 @@
                         <a href="#contact">Contato</a>
                     </li>
                     <li>
-                        <a href="php/login.php" class="default-btn">Entrar</a>
+                        <a href="php/login.php" class="default-btn">Login</a>
+
+                    </li>
+                    <li>
+                        <a href="php/criar-conta.php" class="default-btn">Criar Conta</a>
 
                     </li>
 
@@ -64,8 +66,12 @@
                             <a href="#contact">Contato</a>
                         </li>
                         <li>
-                            <a href="php/login.php" class="default-btn">Entrar</a>
-
+                            <a href="php/login.php" class="default-btn">Login</a>
+    
+                        </li>
+                        <li>
+                            <a href="php/criar-conta" class="default-btn">Criar Conta</a>
+    
                         </li>
 
                     </ul>
@@ -238,7 +244,7 @@
 
                 <form>
                     <input type="text" name="name" id="name" placeholder="Digite seu nome">
-                    <input type="e-mail" name="e-mail" id="e-mail" placeholder="Digite seu e-mail">
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
                     <textarea name="message" id="message" placeholder="Escreva sua mensagem"></textarea>
                     <input type="submit" value="Enviar Mensagem">
 
@@ -255,7 +261,7 @@
 
 
     </div> <!--container-->
-    <script src="script/script.js"></script>
+    <script src="../assets/script.js"></script>
 
 </body>
 

@@ -50,6 +50,8 @@ nav{
     
 }
 
+/**===Navbar Desktop===**/
+
 .navbar-itens {
     
     align-items: center;
@@ -81,6 +83,8 @@ nav{
     color: #fff;
 }
 
+/**===Navbar Mobile===**/
+
 .mobile-menu {
 
     position: fixed;
@@ -91,8 +95,8 @@ nav{
     background-color: rgba(0,0,0,0.9);
     align-items: center;
     justify-content: center;
-    line-height: 60px;
-    font-size: 1.2rem;
+    line-height: 70px;
+    font-size: 1.0rem;
     display: none;
    
  
@@ -103,8 +107,8 @@ nav{
 
     margin: 0;
     list-style: none;
-    padding-left: 0;
-   
+   text-align: center;
+      
     
 }
 
@@ -134,8 +138,6 @@ nav{
    
 }
 
-
-
 /*=== MAIN BANNER===*/
 
 .main-banner {
@@ -146,7 +148,6 @@ nav{
     padding: 10rem 0;
 
 }
-
 
 .main-banner h1,
 .main-banner p {
@@ -538,10 +539,6 @@ footer p {
 
 /* === RESPONSIVIDADE */
 
-/*===SMALL LEPTOPS AND TABLETS ===*/
-
-
-
 @media (max-width:1100px) {
 
     .plans-container {
@@ -846,3 +843,6 @@ footer p {
         font-size: 12px;
     }
 }
+
+
+

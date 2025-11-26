@@ -1,0 +1,145 @@
+/* === GERAL===*/
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+
+}
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    width: 70px;         
+    margin: 20px;
+    position: absolute;   
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+  
+           
+}
+
+
+.main-banner {
+
+   background-image: url(../img/mainbanner.png);
+   background-repeat: no-repeat;
+   background-position: center, center;
+   background-size: cover;  
+   width: 100vw;
+   height: 100vh;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   padding-top: 50px;
+   gap: 40px;
+   text-align: center;
+
+  
+    
+}
+/* CAMADA ESCURA */
+.main-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6); /* 0.4 é a opacidade */
+    z-index: 1;
+}
+
+/* Tudo dentro do banner deve ficar acima da camada */
+
+.main-banner, .main-banner h1, .login-form {
+    position: relative;
+    z-index: 2;
+}
+
+.main-banner h1 {
+
+    color:#fff;
+    text-shadow: none; 
+    
+}
+
+.login-form {
+   
+    background-color:#2cc76a;
+    width: 90%;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 5px;
+     
+
+}
+
+.login-form input{
+
+    display: block;
+    background-color: #fafafa;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 6px;
+   
+   
+
+}
+
+.login-form input[type="submit"]{
+   
+    width: 80%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#232a31;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form input[type="submit"]:hover {
+
+    background-color: #fafafa;
+    opacity: 0.9;
+    
+}
+
+.login-form p{
+
+    color:#201f1f;
+    font-size: 18px;
+    margin-top: 40px; 
+    text-shadow: none; 
+  
+    
+}
+.login-form p a{
+
+    color:#081b86;
+    text-decoration: none;
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
