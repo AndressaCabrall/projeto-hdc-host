@@ -232,7 +232,7 @@
                 <!-- Modal de Sucesso -->
                 <div id="modalSucesso" class="modal">
                     <div class="modal-content">
-                        <span class="close">&times;</span>
+                        <span class="close"></span>
                         <h2>✓ Mensagem Enviada com Sucesso!</h2>
 
                         <button class="modal-btn">Fechar</button>
@@ -242,10 +242,11 @@
                 <h2>Mande uma mensagem</h2>
                 <p>Envie a sua mensagem, em até 04 horas um especialista entrará em contato.</p>
 
-                <form>
-                    <input type="text" name="name" id="name" placeholder="Digite seu nome">
-                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
-                    <textarea name="message" id="message" placeholder="Escreva sua mensagem"></textarea>
+                <form class=  "contact-form" id = "contact-form" action ="../config/processa_contato.php" method ="POST" >
+
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome"required>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail"required>
+                    <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"required></textarea>
                     <input type="submit" value="Enviar Mensagem">
 
                 </form>
@@ -261,6 +262,7 @@
 
 
     </div> <!--container-->
+
     <script src="../assets/script.js"></script>
 
 </body>
