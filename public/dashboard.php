@@ -1,4 +1,7 @@
 <?php 
+session_start();
+
+include '../config/conexao.php';
 $pageCss = "../assets/css/dashboard.css";
 include '../includes/header.php';
 ?>
@@ -10,7 +13,10 @@ include '../includes/header.php';
 
 </a>
 
-    <h1>Bem-vindo ao Dashboard</h1>
+    <h1>Bem-vindo ao seu Dashboard</h1>
+
+   <p> Olá <strong><?php echo $_SESSION['usuario_nome']; ?></strong>, 
+   
 
     <p>Aqui é a sua área logada. Em breve você vai ver seus dados, ações e informações importantes.</p>
 

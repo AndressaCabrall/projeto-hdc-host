@@ -1,6 +1,8 @@
 <?php 
+include '../config/conexao.php';
 $pageCss = "../assets/css/login.css";
 include '../includes/header.php';
+//Conexão com o Banco de dados e com o html e css
 ?>
 
 
@@ -18,7 +20,7 @@ include '../includes/header.php';
 
                 <h1>Acesse sua conta</h1>
 
-                <form class="login-form" id="login-form" action="php/validar-login.php" method="POST">
+                <form class="login-form" id="login-form" action="../config/valida_login.php" method="POST">
                     
                     <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
                     <input type="password" name="senha" id="senha" placeholder="Digite sua senha">

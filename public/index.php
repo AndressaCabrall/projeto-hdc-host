@@ -41,11 +41,11 @@
                         <a href="#contact">Contato</a>
                     </li>
                     <li>
-                        <a href="php/login.php" class="default-btn">Login</a>
+                        <a href="../public/login.php" class="default-btn">Login</a>
 
                     </li>
                     <li>
-                        <a href="php/criar-conta.php" class="default-btn">Criar Conta</a>
+                        <a href="../public/cadastro.php" class="default-btn">Criar Conta</a>
 
                     </li>
 
