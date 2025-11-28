@@ -217,11 +217,30 @@
                 <h2>Qual domínio você quer para o seu site</h2>
                 <p>Verifique se o domínio está disponível.</p>
 
-                <form>
-                    <input type="text" name="domain" id="domain" placeholder="Digite o domínio desejado">
-                    <input type="submit" value="Procurar Domínio">
+                <form id ="domain-form">
+                    <input type="text" name="domain" id="domain" placeholder="Digite o domínio desejado" autocomplete="off">
+                    <input type="submit" value="Procurar Domínio" >
 
                 </form>
+
+                 <!-- Mensagem de Carregamento -->
+                 <div id="loading" class="loading">
+                 ⏳ Buscando informações...
+                 </div>
+
+                   <!-- Mensagem de Erro -->
+
+                 <div id="erro" class="erro"></div>
+
+                <!-- Resultado da Busca -->
+
+                <div id="resultado" class="resultado">
+
+                <h3 id="dominioNome"></h3>
+                <p id="statusDominio" class="status"></p>
+              
+
+               </div>
 
             </section>
 
@@ -264,6 +283,7 @@
     </div> <!--container-->
 
     <script src="../assets/script.js"></script>
+    <script src="../assets/dominio.js"></script>
 
 </body>
 

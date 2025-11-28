@@ -375,6 +375,119 @@ nav{
 
 }
 
+/*===RESULTADO DOMINIO===*/
+
+/* Resultado da Busca */
+.resultado {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    display: none;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.resultado.show {
+    display: block;
+    animation: slideDown 0.3s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.resultado.disponivel {
+    border-left: 5px solid #2cc762;
+}
+
+.resultado.indisponivel {
+    border-left: 5px solid #e74c3c;
+}
+
+.resultado h3 {
+    margin: 0 0 1.5rem 0;
+    color: #34454e;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.resultado p {
+    margin: 1rem 0;
+    color: #34454e;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.status {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 1.5rem 0;
+}
+
+.status.disponivel {
+    color: #2cc762;
+}
+
+.status.indisponivel {
+    color: #e74c3c;
+}
+
+/* Carregamento */
+.loading {
+    text-align: center;
+    display: none;
+    color: #2cc762;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: 20px;
+    animation: pulse 1.5s infinite;
+}
+
+.loading.show {
+    display: block;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+/* Erro */
+.erro {
+    color: #e74c3c;
+    padding: 1.5rem;
+    background: #fadbd8;
+    border: 2px solid #e74c3c;
+    border-radius: 10px;
+    display: none;
+    margin-top: 2rem;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.erro.show {
+    display: block;
+    animation: slideDown 0.3s ease-in-out;
+}
+
 /*===SECTION CONTACT===*/
 
 .contact-container {
