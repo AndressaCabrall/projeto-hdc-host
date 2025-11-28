@@ -12,7 +12,7 @@ include '../includes/header.php';
 
             <div class="main-banner">
 
-            <a href="#">
+            <a href="../public/index.php">
             <img src="../assets/img/hdchostlogo.png" class="logo" alt="hDC hoster logo">
 
                 </a>
