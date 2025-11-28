@@ -1,0 +1,69 @@
+# Projeto HDC Host
+
+## Plataforma web completa de gerenciamento de login com autenticação, painel de controle e formulário de contato.
+
+Este projeto é uma solução web robusta desenvolvida em PHP, projetada para oferecer funcionalidades essenciais para o gerenciamento e verificação de domínios. Inclui um sistema de autenticação completo, um painel de controle intuitivo, um verificador de domínios em tempo real e um formulário de contato integrado.
+
+---
+
+## ✨ Funcionalidades Principais
+
+O Projeto HDC Host oferece um conjunto de funcionalidades para uma experiência completa de gerenciamento:
+
+1.  **Sistema de Autenticação (Login e Cadastro)**
+    *   **Registro de novos usuários**: Permite que novos usuários criem suas contas de forma segura.
+    *   **Login com validação**: Autenticação de usuários existentes com validação de credenciais.
+    *   **Sessões seguras**: Gerenciamento de sessões para manter o estado do usuário logado.
+    *   **Logout**: Funcionalidade para encerrar a sessão do usuário de forma segura.
+
+2.  **Painel de Controle (Dashboard)**
+    *   **Bem-vindo do usuário**: Página inicial personalizada após o login.
+    *   **Navegação principal**: Acesso fácil a todas as funcionalidades do sistema.
+    *   **Acesso às funcionalidades**: Links diretos para o verificador de domínios e formulário de contato.
+
+3.  **Verificador de Domínios**
+    *   **Busca em tempo real via RDAP**: Consulta a disponibilidade de domínios utilizando o protocolo RDAP.
+    *   **Verifica disponibilidade de domínios**: Informa se um domínio está disponível para registro ou já está em uso.
+    *   **Suporta múltiplas extensões**: Compatível com extensões populares como `.com`, `.com.br`, `.net`, `.org`, entre outras.
+    *   **Interface intuitiva**: Design amigável para facilitar a busca e visualização dos resultados.
+
+4.  **Formulário de Contato**
+    *   **Envio de mensagens completo**: Permite que os usuários enviem mensagens para a administração do site.
+    *   **Validação de campos**: Garante que os dados inseridos sejam válidos antes do envio.
+    *   **Integração com banco de dados**: Armazena as mensagens enviadas para posterior consulta.
+    *   **Feedback ao usuário**: Confirmação visual após o envio bem-sucedido da mensagem.
+
+5.  **Banco de Dados SQL**
+    *   **Tabela de usuários**: Armazena informações de registro e autenticação (`id`, `nome`, `email`, `senha`).
+    *   **Tabela de contatos/mensagens**: Guarda os dados das mensagens enviadas pelo formulário de contato.
+    *   **Estrutura relacional**: Organização eficiente dos dados para facilitar consultas e manutenção.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi construído utilizando uma combinação de tecnologias frontend e backend para garantir robustez e interatividade.
+
+### Frontend
+
+*   **HTML5**: Utilizado para estruturar o conteúdo e a semântica das páginas web.
+*   **CSS3**: Responsável pela estilização e design responsivo da interface do usuário.
+*   **JavaScript**: Adiciona interatividade às páginas e gerencia a lógica do lado do cliente.
+*   **Fetch API**: Usada para realizar requisições assíncronas (AJAX) ao backend, sem recarregar a página.
+
+### Backend
+
+*   **PHP 7.4+**: Linguagem de programação do lado do servidor, responsável pela lógica de negócios, autenticação e comunicação com o banco de dados e APIs externas.
+*   **MySQL/SQL**: Sistema de gerenciamento de banco de dados relacional para armazenamento persistente de informações.
+*   **cURL**: Biblioteca PHP utilizada para fazer requisições HTTP para a API RDAP.
+*   **Sessões PHP**: Mecanismo para gerenciar o estado de autenticação dos usuários e manter informações durante a navegação.
+
+### APIs Externas
+
+*   **RDAP (Registry Data Access Protocol)**: Protocolo padrão para consultar informações de registro de domínios, utilizado para verificar a disponibilidade e detalhes dos domínios em tempo real.
+
+---
+
+## 📁 Estrutura de Pastas
+
+A organização do projeto segue uma estrutura lógica para facilitar o desenvolvimento e a manutenção:
