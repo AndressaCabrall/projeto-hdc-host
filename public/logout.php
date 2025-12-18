@@ -1,5 +1,5 @@
 <?php 
-$pageCss = "../assets/css/logout.css";
+$pageCss = "../assets.css/logout.css";
 include '../includes/header.php';
 ?>
 

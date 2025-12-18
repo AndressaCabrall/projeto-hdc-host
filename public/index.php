@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hDC host</title>
 
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets.css/style.css">
 
     <!-- Icones  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
-    <link rel="icon" type="image/png" href="../assets/img/hdchostlogo.png">
+    <link rel="icon" type="image/png" href="../assets.img/hdchostlogo.png">
 
 
 </head>
@@ -24,7 +24,7 @@
         <div class="navbar-container">
             <nav>
                 <a href="#">
-                <img src="../assets/img/hdchostlogo.png" class="logo" alt="hDC hoster logo">
+                <img src="../assets.img/hdchostlogo.png" class="logo" alt="hDC hoster logo">
 
                 </a>
 
@@ -282,8 +282,8 @@
 
     </div> <!--container-->
 
-    <script src="../assets/script.js"></script>
-    <script src="../assets/dominio.js"></script>
+    <script src="../assets.js/script.js"></script>
+    <script src="../assets.js/dominio.js"></script>
 
 </body>
 

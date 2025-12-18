@@ -1,6 +1,6 @@
 <?php 
 include '../config/conexao.php';
-$pageCss = "../assets/css/login.css";
+$pageCss = "../assets.css/login.css";
 include '../includes/header.php';
 //Conexão com o Banco de dados e com o html e css
 ?>
@@ -13,7 +13,7 @@ include '../includes/header.php';
             <div class="main-banner">
 
             <a href="../public/index.php">
-            <img src="../assets/img/hdchostlogo.png" class="logo" alt="hDC hoster logo">
+            <img src="../assets.img/hdchostlogo.png" class="logo" alt="hDC hoster logo">
 
                 </a>
 
@@ -37,6 +37,6 @@ include '../includes/header.php';
 
         
 
-        <script src="../assets/script.js"></script>
+        <script src="../assets.js/script.js"></script>
 
         <?php include '../includes/footer.php'; ?>

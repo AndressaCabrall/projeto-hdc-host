@@ -2,14 +2,14 @@
 session_start();
 
 include '../config/conexao.php';
-$pageCss = "../assets/css/dashboard.css";
+$pageCss = "../assets.css/dashboard.css";
 include '../includes/header.php';
 ?>
 
 <main class="dashboard-container">
 
 <a href="../public/index.php">
-            <img src="../assets/img/hdchostlogo.png" class="logo" alt="hDC hoster logo">
+            <img src="../assets.img/hdchostlogo.png" class="logo" alt="hDC hoster logo">
 
 </a>
 

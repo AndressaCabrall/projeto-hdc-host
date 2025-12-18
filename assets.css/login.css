@@ -28,7 +28,7 @@ body{
 
 .main-banner {
 
-   background-image: url(../img/mainbanner.png);
+   background-image: url(../assets.img/mainbanner.png);
    background-repeat: no-repeat;
    background-position: center, center;
    background-size: cover;  
@@ -132,9 +132,57 @@ body{
     
 }
 
+/* === RESPONSIVIDADE */
 
+/*===CELULARES===*/
 
+@media (max-width:576px) {
 
+    .logo {
+        width: 50px;         
+        
+                    
+    } 
+    .main-banner h1 {
+
+        font-size:35px;
+        margin: 0;
+    }
+
+    .login-form {
+   
+       
+        width: 60%;
+        
+               
+    
+    }
+    .login-form input{
+        
+        width: 100%;
+        font-size: 12px;
+          
+    }
+    .login-form input[type="submit"]{
+   
+        width: 100%;
+        margin: 0 auto;
+        font-size: 12px;
+        
+    }
+    .login-form p{
+
+       
+       font-size: 14px;
+       line-height: 2rem;
+       
+              
+    }
+    
+    
+   
+
+}
 
 
 

@@ -9,7 +9,7 @@
 
     <!-- Css principal -->
 
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets.css/style.css">
 
     <!-- CSS específico da página (se existir) -->
     <?php if(isset($pageCss)): ?>
@@ -20,7 +20,7 @@
     <!-- Icones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 
-    <link rel="icon" type="image/png" href="../assets/img/hdchostlogo.png">
+    <link rel="icon" type="image/png" href="../assets.img/hdchostlogo.png">
 </head>
 
 <body>

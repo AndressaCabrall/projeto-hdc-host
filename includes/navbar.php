@@ -1,7 +1,7 @@
 <div class="navbar-container">
     <nav>
         <a href="../public/index.php">
-            <img src="../assets/img/hdchostlogo.png" class="logo" alt="hDC hoster logo">
+            <img src="../assets.img/hdchostlogo.png" class="logo" alt="hDC hoster logo">
         </a>
 
         <ul class="navbar-itens">
